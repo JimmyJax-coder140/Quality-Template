@@ -1,0 +1,706 @@
+.toper{
+    margin-left: -10px;
+}
+
+ul{
+    text-decoration: none;
+    overflow: hidden;
+   
+}
+ul li{
+    display: inline;
+    padding-left: 10px;
+    color: rgba(67, 67, 148);
+}
+
+.hours{
+    float: right;
+    margin-top: -30px;
+    margin-right: 250px;
+    color: rgba(67, 67, 148);
+}
+
+nav > a {
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.media-icons{
+    float: right;
+    margin-top: -50px;
+    margin-right: 70px;
+}
+
+.fa-facebook-square, .fa-twitter, .fa-instagram{
+    color: white;
+    background-color: darkslateblue;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.mid-top{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.mid-side:hover{
+    color: red;
+}
+
+.logo{
+    background-color: rgb(6, 6, 114);
+    width: 200px;
+    color: white; 
+    margin-left: -40px;
+    margin-top: -20px;
+}
+
+.fa-angle-down{
+    color: blue;
+}
+
+.fa-institution{
+    color: white;
+    background-color: red;
+    border-radius: 30px;
+    padding: 7px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.report-issue{
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+}
+
+.fa-phone{
+    color: red;
+    line-height: 200px;
+}
+.report{margin-bottom: -20px;}
+.report > a{
+    margin-bottom: 30px;
+}
+
+.pics-path{
+    /* background-image: url(Smhosbuild.jpg); */
+    background-image: linear-gradient(rgba(0,0,40,0.5),rgba(0,0,30,0.4)),url(Smhosbuild.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    color: beige;
+    height: -9 00px;
+    margin-left: -40px;
+    text-align: center;
+}
+
+.welcome{
+    padding-top: 100px;
+    letter-spacing: 8px;
+}
+
+.discover{
+    background-color: rgb(240, 42, 42);
+    text-decoration: none;
+    color: white;
+    padding: 10px
+}
+
+.discover:hover{
+    background-color: beige;
+    color: rgb(240, 42, 42);
+    border-radius: 20px;
+}
+
+.subscribe{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+.news{
+    color: white;
+    padding: 30px;
+}
+
+.label{
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.after{
+    margin-top: -15px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 20px;   
+}
+
+.mayor{
+    width:50%;
+    margin-left: 40px
+}
+
+.online-cont{
+   margin-left: auto;
+   width: 100%;
+   text-align: center;
+}
+
+.work-on{
+  margin-left: -400px;
+
+}
+
+.online{
+    background-color: orangered;
+    color: white;
+    position: absolute;
+    padding: 20px 30px;
+    height: 35em;
+    margin-top: -750px;
+    margin-left: 410px;
+}
+
+.agencies{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.flag:hover, .industry:hover, .spinner:hover, .goods:hover, .bus:hover, .legal:hover{
+    box-shadow: 5px 4px 4px 5px grey;
+}
+.govt{
+    background-color: beige;
+    margin-left: -120px;
+    padding-left: 160px;
+    height: 500px; 
+    color: rgb(68, 68, 223);
+}
+.govt > h2{
+    color: rgb(68, 68, 223);;
+}
+
+.all{
+    text-decoration: none;
+    padding: 20px;
+    margin-top: -50px;
+    text-decoration: none;
+    color: rgb(68, 68, 223);
+}
+
+.all > a{
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    padding:10px;
+}
+
+.all > a:hover{
+    box-shadow: 4px 4px 4px blue;
+}
+
+.news{
+    color: rgb(68, 68, 223);
+    padding: -10px;
+}
+
+.Subscribe{
+    background-color:rgb(253, 39, 39);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.label{
+    margin: 40px;
+}
+
+.more{
+    text-decoration: none;
+}
+
+.fa-arrow-right{
+    color: blue;
+    text-decoration-thickness: 10px;
+}
+
+.goods{
+    margin-top: 40px;
+    background-color: white;
+    box-shadow: red;
+    padding: 10px;
+}
+
+.fa-bus{
+    color: rgb(199, 34, 34);
+    padding-bottom: -30px;
+}
+
+.bus{
+    border-color:rgba(29, 27, 27, 0.2);
+    padding: 20px;
+    color: darkslateblue
+}
+
+.fa-legal{
+    color: rgb(199, 34, 34);
+    padding-bottom: -30px;
+}
+
+.legal{
+    margin-top: 10px;
+    border-color:rgba(29, 27, 27, 0.2);
+    padding: 20px;
+    color: darkslateblue
+}
+
+.novice{
+    width: 40%;
+}
+
+.fa-flag-checkered{
+    color: red;
+    padding-bottom: -30px;
+}
+
+.flag{
+    margin-top: 40px;
+    border-color:rgba(29, 27, 27, 0.2);
+    padding: 20px;
+    color: darkslateblue
+}
+
+/* faseekiswenky@gmial.com */
+
+.fa-industry{
+    color: red;
+    padding-bottom: -30px;
+}
+
+.industry{
+    margin-top: 40px;
+    border-color:rgba(29, 27, 27, 0.2);
+    padding: 20px;
+    padding-bottom: 20px;
+    margin-top: 90px;
+    color: darkslateblue;
+}
+
+.fa-spinner{
+    color: red;
+    padding-bottom: -30px;
+}
+
+.spinner{
+    margin-top: 40px;
+    border-color:rgba(29, 27, 27, 0.2);
+    padding: 20px;
+    color: darkslateblue;
+    
+}
+
+.events{
+    margin-left: 130px;
+    color:darkslateblue;
+    margin-top: -20px;
+    padding-top: 40px;
+    margin-bottom: 35px;
+}
+
+.latest{
+   display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-content: center;
+}
+
+.section-A{
+  background-color: white;
+  box-shadow: 5px 5px 4px rgb(73, 66, 66);
+   margin-bottom: 180px;
+ 
+}
+
+.source{
+    position: relative;
+}
+
+.date{
+    background: rgb(228, 19, 19);
+    position: absolute;
+    padding: 4px;
+    margin-top: -20px;
+    margin-left: 20px;
+    color: white;
+}
+
+.section-C{
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(73, 66, 66);
+    margin-bottom: 120px;
+    margin-right: 50px;
+    color: darkslateblue;
+}
+
+.city{
+    background-color:rgb(238, 226, 226);
+    margin-top: -80px;
+    width: 100%;
+
+}
+.suggest{
+   text-align: center;
+   padding-top: 50px;
+   color: darkslateblue;
+}
+
+.nature{
+    display:flex;
+   justify-content: space-evenly;
+   color: darkslateblue;
+   width: 60%;
+   margin-left: 20em;
+}
+
+.public{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 10px 5px 10px rgb(44, 41, 41);
+}
+
+.educate{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 10px 5px 10px rgb(44, 41, 41);
+}
+
+.park{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 10px 5px 10px rgb(44, 41, 41);
+}
+
+
+.company{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-left: 16em;
+    color: darkslateblue;
+}
+
+
+.transport, .entertainment, .sports, .business{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 10px 5px 10px rgb(44, 41, 41);
+}
+
+.health{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 10px 5px 10px rgb(44, 41, 41);
+    margin-left: 70px;
+}
+.main-container{
+    background-color: rgb(16, 16, 66);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 15em;
+    padding-top: 4em;
+}
+
+
+.explore-all{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    border-color: red;
+    padding: 10px;
+    transition: all 0.8s;
+}
+
+.explore-all:hover{
+    color: rgb(29, 29, 230);
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    transform-style:preserve-3d;
+}
+
+.pics-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+   
+}
+.picture, .photo, .recent{
+    margin:0 1em 1em 1px;
+}
+
+.picture{
+    /* background-image: url(car.jpg); */
+    background-image: linear-gradient(rgba(0,0,50,0.2),rgba(0,0,30,0.3)),url(car.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20em;
+    height: 13em;
+}
+
+.icon-6{
+    float: right;
+    background-color: grey;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.forth{
+    margin-top: 9em;
+    padding-top: -40px;
+    margin-left: 20px;
+}
+
+.forth-1{
+    margin-top: -10px;
+}
+
+.photo{
+     /* background-image: url(4left.png); */
+    background-image: linear-gradient(rgba(0,0,50,0.2),rgba(0,0,30,0.3)),url(4left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20em;
+    height: 13em;
+}
+
+.recent{
+     /* background-image: url(snap.png); */
+    background-image: linear-gradient(rgba(0,0,50,0.2),rgba(0,0,30,0.3)),url(snap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20em;
+    height: 13em;
+}
+
+.services-container{
+    background-color: rgb(248, 241, 241);
+    margin-top: -2em;
+    padding-top: 2em;
+    padding-left: 4em
+
+}
+
+.sub-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 5em;
+}
+
+.food, .affairs, .planning, .skills{
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+
+.food:hover, .affairs:hover, .planning:hover, .skills:hover{
+    box-shadow: 4px 4px 4px grey;
+}
+
+button:hover{
+    transition: width 4s linear 1s;
+    width: 100px;
+    cursor:progress;
+    border-color: red;
+}
+
+
+
+.get-app{
+    /* background-color: orangered; */
+    /* background-image: url(Smhosbuild.jpg); */
+    background-image: linear-gradient(rgba(238, 83, 22, 0.9),rgba(235, 63, 20, 0.856)), url(Smhosbuild.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.use-app{
+    color: white;
+    margin-top: 8em;
+}
+
+.apple, .android{   
+    background-color: black;
+    padding: 1em;
+    width: 10em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.app-store{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stores{
+    text-decoration: none;
+    color: white;
+}
+
+.folink{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    animation-name: example;
+    animation-duration: 4s;
+    
+}
+
+.folink:hover{
+    transform: rotateX(-90deg);
+    transition: all 1s;
+    transition-delay: 1s;
+    background-color:rgb(228, 19, 19);
+    cursor:grabbing;
+}
+
+@keyframes example {
+    0%   {background-color: red; left:0px; top:0px;}
+    25%  {background-color: yellow; left:200px; top:0px;}
+    50%  {background-color: blue; left:200px; top:200px;}
+    75%  {background-color: green; left:0px; top:200px;}
+    100% {background-color: black; left:0px; top:0px;}
+}
+
+.mock{
+    height: 300px;
+    margin-top: 8em;
+    overflow: hidden;
+    transition: width 2s, height 1s;
+    transition-timing-function: ease-in-out;
+    transform: translate3d(90%);
+    cursor: zoom-out
+}
+
+.top-foot{
+    background-color: #142244;;
+    display: flex;
+    width: 100%;
+    overflow: hidden
+}
+
+.contact-news{
+    margin-left: 10em;
+    padding: 20px;
+    width: 50%; 
+}
+
+.contact-news > a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: white;
+}
+
+.contact-news > a:hover{
+    color: red;
+    border-style:groove;
+    border-width: 2px;
+    transition:ease-in-out 2s;
+    transform: translate3d(90%);
+}
+
+.with-us{
+    display: flex;
+    width: 50%;
+    color: white;
+}
+
+.net-icon{
+    margin-left:10px;
+    margin-top:10px
+}
+
+.net-icon:hover{
+    transform: rotateY(270deg);
+    transition: all 2s;
+}
+
+.last-foot{
+    background-color:#06163a;
+    margin-top: -1px;
+    padding-top: 20px;
+}
+.items-foot{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.need:hover{
+    box-shadow: 5px 5px 5px white;
+    cursor: move;
+}
+
+.needed:hover{
+    box-shadow: 5px 5px 5px goldenrod;
+    cursor:grab;
+}
+
+.subs{
+background-color: red; 
+color: white;
+padding:10px; 
+margin-left:-8px;
+position: relative;
+animation-name: example;
+animation-duration: 4s;
+}
+.subs:hover{
+    transition:ease-in-out 2s;
+}
+   
+@keyframes example {
+    0%   {background-color: red; left:0px; top:0px;}
+    25%  {background-color: gold; left:100px; top:0px;}
+    50%  {background-color: blue; left:100px; top:100px;}
+    75%  {background-color: purple; left:50px; top:50px}
+
+}
+
+.template{
+    color:white;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
