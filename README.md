@@ -1,2 +1,2 @@
-# Quality-Template
+# Quality Template
 My Workup Template
